@@ -1,18 +1,68 @@
-@font-face {
-  font-family: 'Open Sans Condensed', sans-serif;
-  src: url("/fonts/OpenSansCondensed-Bold.ttf") format("ttf"); }
-
 html {
   height: 100%;
   width: 100%; }
 
 body {
   margin: 0;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 14px;
-  line-height: 22px;
+  font-family: 'Hind', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+header {
+  background-image: url("../img/header_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 1000px; }
+
+.hr {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #B5B4B1;
+  position: static; }
+
+.logo {
+  width: 100px;
+  height: 50px;
+  color: #B5B4B1;
+  font-size: 30px;
+  position: absolute;
+  margin-top: 20px; }
+
+.header {
+  max-width: 1170px;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+  top: -60px; }
+
+.topMenu {
+  color: #B5B4B1;
+  max-width: 50%;
+  right: 0;
+  height: 70px;
+  position: absolute;
+  max-width: 50vw;
+  overflow-x: scroll; }
+  .topMenu ul li {
+    float: right;
+    list-style-type: none;
+    margin-left: 15px;
+    min-width: 50px; }
+
+.menuContent {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,5 +70,40 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -ms-flex-line-pack: justify;
-  align-content: space-between; }
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: auto 0;
+  text-align: left;
+  color: white; }
+  .menuContent h1 {
+    font-size: 5vw; }
+  .menuContent .headerText {
+    width: 40%; }
+
+.button {
+  width: 150px;
+  height: 40px;
+  border: 2px solid white;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px; }
+
+.button:hover {
+  background-color: white;
+  color: black; }
+
+main {
+  max-width: 1170px;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }

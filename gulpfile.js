@@ -24,7 +24,6 @@ gulp.task('browser-sync', function() {
       baseDir: "."
     }
     //  proxy: "exam1.loc"
-
   })
 });
 
