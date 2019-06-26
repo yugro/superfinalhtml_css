@@ -428,3 +428,5 @@ main {
     margin-right: 30px; }
     .footermenu div ul {
       list-style-type: none; }
+      .footermenu div ul li:hover {
+        color: #999999; }

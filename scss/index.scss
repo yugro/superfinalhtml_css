@@ -357,7 +357,7 @@ float: left;
 
       height: 98%;
       width: 100%;
-    }
+       }
   }
 
   div:last-child{
@@ -425,6 +425,11 @@ div{
   ul{
     list-style-type: none;
 
+    li{
+      &:hover{
+        color: #999999;
+      }
+    }
   }
 }
 
