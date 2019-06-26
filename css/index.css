@@ -52,7 +52,7 @@ header {
   max-width: 50%;
   right: 0;
   height: 70px;
-  position: absolute; }
+  float: right; }
   .topMenu ul {
     height: 100%;
     overflow-x: auto; }
@@ -132,10 +132,10 @@ main {
 
 .secondwraper {
   width: 100%;
-  background-color: #FAFAFA; }
+  background-color: #F5F5F5; }
 
 .second {
-  margin: 100px  auto;
+  margin: 40px auto;
   max-width: 1170px;
   padding: 0 15px;
   display: -webkit-box;
@@ -148,11 +148,10 @@ main {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
-  .second div {
-    width: 500px; }
 
 .secondl {
-  height: 300px; }
+  height: 300px;
+  width: 40%; }
   .secondl p {
     width: 90%; }
   .secondl div {
@@ -166,6 +165,7 @@ main {
       background-color: #3DBED2; }
 
 .secondr {
+  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -176,6 +176,11 @@ main {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
+  .secondr div {
+    margin-top: 2px;
+    padding: 10px 20px;
+    -webkit-box-shadow: 1px 1px lightgray;
+    box-shadow: 1px 1px lightgray; }
   .secondr div:first-of-type {
     background-color: #3DBED2;
     height: 50%; }
@@ -209,7 +214,8 @@ main {
 .thirdcontent {
   height: 20%; }
   .thirdcontent p {
-    width: 50%; }
+    width: 50%;
+    color: #999999; }
 
 .thirdblock {
   height: 70%;
@@ -236,16 +242,20 @@ main {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
-  .thirdblock1:hover {
-    color: #999999; }
 
 .thirdblock1_1 {
-  width: 100%; }
+  width: 100%;
+  height: 60%;
+  background-color: black; }
   .thirdblock1_1 img {
     max-width: 100%; }
+    .thirdblock1_1 img:hover {
+      opacity: 0.4; }
 
 .thirdblock1_2 {
   width: 100%; }
+  .thirdblock1_2:hover {
+    color: #999999; }
   .thirdblock1_2 h3 {
     float: left; }
   .thirdblock1_2 p {
@@ -254,6 +264,15 @@ main {
     margin-left: 40px;
     float: left;
     color: #999999; }
+
+.thirdblock1_3:hover {
+  color: #999999; }
+
+.thirdblock1_3 p {
+  color: #999999; }
+
+.thirdblock1_4:hover {
+  color: #999999; }
 
 .thirdblock1_4 p {
   display: inline; }
@@ -267,7 +286,7 @@ main {
 
 .fourthwraper {
   width: 100%;
-  background-color: #FAFAFA; }
+  background-color: #F5F5F5; }
 
 .fourth {
   margin: 100px auto;
@@ -280,14 +299,15 @@ main {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .fourthblock {
   background-color: white;
-  width: 33%;
-  height: 330px; }
+  width: 28%;
+  height: 330px;
+  padding: 30px; }
   .fourthblock ul {
     list-style-type: none;
     padding-left: 0; }
@@ -301,6 +321,8 @@ main {
       font-weight: bold; }
     .fourthblock div:nth-of-type(2) p:last-of-type {
       font-weight: bold; }
+  .fourthblock div:nth-of-type(3) {
+    color: #999999; }
   .fourthblock div:nth-of-type(5) {
     background-color: lightgray;
     height: 30px;
@@ -312,7 +334,7 @@ main {
   .fourthblock:nth-of-type(2) {
     height: 380px;
     margin-top: -25px;
-    padding-top: 25px; }
+    padding-top: 45px; }
 
 .fifthwraper {
   width: 100%;
@@ -331,7 +353,7 @@ main {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 50px auto; }
+  margin: 40px auto; }
 
 .fifth1 {
   width: 50%;
@@ -394,9 +416,9 @@ main {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: 50px auto; }
   .six img {
     width: 100%; }
@@ -430,3 +452,101 @@ main {
       list-style-type: none; }
       .footermenu div ul li:hover {
         color: #999999; }
+
+.serviceswraper {
+  width: 100%; }
+
+.services {
+  max-width: 1170px;
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px auto;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.servicestop {
+  height: 20%;
+  width: 50%; }
+  .servicestop p {
+    color: #999999; }
+
+.serviceslist {
+  width: 100%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .serviceslist div {
+    width: 25%;
+    margin-top: 30px;
+    padding: 30px; }
+    .serviceslist div p {
+      color: #999999; }
+    .serviceslist div:nth-of-type(2) {
+      background-color: #3DBED2;
+      color: white; }
+      .serviceslist div:nth-of-type(2) p {
+        color: white; }
+    .serviceslist div:hover img {
+      display: none; }
+
+.contactwraper {
+  width: 100%;
+  border-top: 1px dotted gray; }
+
+.contact {
+  max-width: 1170px;
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px auto;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.contactblock1 {
+  width: 30%; }
+
+.contactblock1_2 {
+  width: 100%; }
+  .contactblock1_2 h3 {
+    float: left;
+    font-size: large; }
+  .contactblock1_2 p:first-of-type {
+    height: 100%;
+    padding-top: 4px;
+    margin-left: 40px;
+    float: left;
+    color: #999999; }
+  .contactblock1_2 p:last-of-type {
+    clear: both; }
+
+.contactblock1_3 p {
+  color: #999999; }
+
+.contactblock1_4 p {
+  display: inline-block;
+  margin-top: -2px;
+  vertical-align: middle; }
