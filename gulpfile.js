@@ -4,7 +4,7 @@ const autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 
 gulp.task('sass', async function(){
-  gulp.src(['./scss/*.scss'])
+  gulp.src(['scss/*.scss'])
       .pipe(sass().on('error', sass.logError))
       .pipe(autoprefixer({
         browsers: ['last 2 versions'],
@@ -15,13 +15,13 @@ gulp.task('sass', async function(){
 });
 
 gulp.task('sass:watch', function(){
-  gulp.watch(['./scss/*.scss'], gulp.series('sass'));
+  gulp.watch(['scss/*.scss'], gulp.series('sass'));
 });
 
 gulp.task('browser-sync', function() {
-  browserSync.init(["./css/*.css", "*.html"], {
+  browserSync.init(["css/*.css", "*.html"], {
     server: {
-      baseDir: "."
+      baseDir: "./"
     }
     //  proxy: "exam1.loc"
   })
