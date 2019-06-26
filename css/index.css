@@ -527,7 +527,8 @@ main {
   justify-content: center; }
 
 .contactblock1 {
-  width: 30%; }
+  width: 33%;
+  margin-right: 5px; }
 
 .contactblock1_2 {
   width: 100%; }
@@ -544,7 +545,8 @@ main {
     clear: both; }
 
 .contactblock1_3 p {
-  color: #999999; }
+  color: #999999;
+  width: 80%; }
 
 .contactblock1_4 p {
   display: inline-block;
