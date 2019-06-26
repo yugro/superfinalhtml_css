@@ -399,6 +399,9 @@ float: left;
   margin: 50px auto;
   img{
     width: 100%;
+    &:hover{
+      opacity: 0.4;
+    }
   }
 }
 

@@ -400,6 +400,8 @@ main {
   margin: 50px auto; }
   .six img {
     width: 100%; }
+    .six img:hover {
+      opacity: 0.4; }
 
 @media screen and (max-width: 1024px) {
   .map {
